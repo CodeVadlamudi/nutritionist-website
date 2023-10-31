@@ -84,7 +84,7 @@ function Work() {
     },
   ];
   return (
-    <section className="my-24 px-10 xl:p-0">
+    <section className="my-12 sm:my-24 px-10">
       <div className="max-w-7xl mx-auto space-y-10">
         <div className="text-center max-w-5xl mx-auto space-y-5">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">

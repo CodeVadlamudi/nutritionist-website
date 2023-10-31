@@ -49,7 +49,7 @@ function Blog() {
     },
   ];
   return (
-    <section className="my-24 px-10">
+    <section className="my-12 sm:my-12 px-5 sm:px-10">
       <div className="max-w-7xl mx-auto space-y-10">
         <div className="text-center space-y-5 max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
@@ -76,27 +76,38 @@ function Blog() {
                   <h3 className="text-lg font-medium text-lime-950">
                     {bCard.bText}
                   </h3>
-                  <h2 className="text-2xl font-semibold text-lime-950">
+                  <h2 className="text-xl sm:text-2xl font-semibold text-lime-950">
                     {bCard.bHeading}
                   </h2>
                 </div>
                 <p className="text-lg">{bCard.bDesc}</p>
 
-                <div className="p-4 bg-lime-50 flex items-center justify-between rounded-md border border-lime-300">
-                  <div className="flex items-center space-x-4">
-                    <img
-                      src={bCard.bImgSub}
-                      alt="Blog Card Sub Image"
-                      className=" rounded-md"
-                    />
-                    <div>
+                <div className="p-4 bg-lime-50 flex flex-col sm:flex-row sm:items-center sm:justify-between rounded-md border border-lime-300 space-y-2 sm:space-y-0">
+                  <div className="flex flex-col sm:flex-row sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <div className="flex items-center justify-between">
+                      <img
+                        src={bCard.bImgSub}
+                        alt="Blog Card Sub Image"
+                        className="rounded-md w-16 h-16"
+                      />
+
+                      <div className="flex items-center space-x-2 sm:hidden">
+                        <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center bg-lime-100 rounded-md border border-lime-300">
+                          <HeartIcon className="w-6 h-6 sm:w-8 sm:h-8 text-lime-950" />
+                        </div>
+                        <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center bg-lime-100 rounded-md border border-lime-300">
+                          <BookmarkIcon className="w-6 h-6 sm:w-8 sm:h-8 text-lime-950" />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-start">
                       <h3 className="text-xl font-semibold text-lime-950">
                         {bCard.bName}
                       </h3>
                       <h6>{bCard.bDate}</h6>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-2">
+                  <div className="sm:flex items-center space-x-2 hidden">
                     <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center bg-lime-100 rounded-md border border-lime-300">
                       <HeartIcon className="w-6 h-6 sm:w-8 sm:h-8 text-lime-950" />
                     </div>

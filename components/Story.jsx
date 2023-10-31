@@ -2,7 +2,7 @@ import React from "react";
 
 function Story() {
   return (
-    <section className="my-24 px-10 text-green-950">
+    <section className="my-12 sm:my-24 px-10 text-green-950">
       <div className="max-w-7xl mx-auto space-y-10">
         <div className="text-center space-y-5 max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">

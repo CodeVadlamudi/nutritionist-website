@@ -45,16 +45,16 @@ function Company() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {companyCard.map((card) => (
             <div
               className="space-y-6 bg-lime-100 p-8 rounded-lg border border-lime-300"
               key={card.id}>
-              <div className="flex items-center space-x-4">
+              <div className="flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:items-center sm:space-x-4">
                 <div className="w-16 h-16 bg-lime-300 flex items-center justify-center rounded-lg">
                   <img src={card.cImg} alt="Feature card Image" />
                 </div>
-                <h3 className="font-semibold text-2xl">{card.cName}</h3>
+                <h3 className="font-semibold text-xl sm:text-2xl">{card.cName}</h3>
               </div>
               <p>{card.cDesc}</p>
             </div>

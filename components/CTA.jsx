@@ -2,9 +2,9 @@ import React from "react";
 
 function CTA() {
   return (
-    <section className="my-24 px-10">
+    <section className="my-12 sm:my-24 px-10">
       <div className="max-w-7xl mx-auto">
-        <div className="p-20 bg-lime-100 relative overflow-hidden border border-lime-300 rounded-md">
+        <div className="p-10 sm:p-20 bg-lime-100 relative overflow-hidden border border-lime-300 rounded-md">
           <div className="flex items-center flex-col lg:flex-row justify-between space-y-5 lg:space-y-0">
             <img
               src="./images/a.png"
@@ -16,8 +16,8 @@ function CTA() {
               alt="Image"
               className="absolute -bottom-12 -right-10"
             />
-            <div className="lg:w-9/12 space-y-5">
-              <h2 className="font-semibold text-3xl md:text-4xl">
+            <div className="lg:w-9/12 space-y-5 z-10">
+              <h2 className="font-semibold text-2xl sm:text-4xl">
                 We Are Proud of Our Achievements
               </h2>
               <p>
@@ -28,7 +28,7 @@ function CTA() {
               </p>
             </div>
 
-            <button className="px-5 py-3 bg-lime-300 rounded hover:bg-lime-400 duration-150 font-semibold text-lg w-full lg:w-auto">
+            <button className="px-5 py-3 bg-lime-300 rounded hover:bg-lime-400 duration-150 font-semibold sm:text-lg w-full lg:w-auto z-10">
               Book a Demo
             </button>
           </div>

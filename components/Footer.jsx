@@ -39,12 +39,12 @@ function Footer() {
               className="w-full h-full object-contain"
             />
           </a>
-          <div className="space-x-10">
+          <div className="sm:space-x-4 grid grid-cols-2 sm:grid-cols-6 gap-3 sm:gap-0">
             {footerLinks.map((link) => (
               <a
                 key={link.id}
                 href={link.link}
-                className="text-lime-50 text-lg hover:text-lime-300 font-semibold duration-150">
+                className="text-lime-50 text-lg hover:text-lime-300 font-semibold duration-150 text-center">
                 {link.name}
               </a>
             ))}

@@ -2,9 +2,9 @@ import React from "react";
 
 function AboutWelcome() {
   return (
-    <section className="my-24 px-10">
-      <div className="max-w-7xl mx-auto bg-lime-100 p-10 rounded-xl text-green-950 text-center space-y-8">
-        <h2 className="font-semibold text-4xl md:text-5xl">
+    <section className="my-12 sm:my-24 px-5 sm:px-10">
+      <div className="max-w-7xl mx-auto bg-lime-100 p-8 sm:p-10 rounded-xl text-green-950 text-center space-y-8">
+        <h2 className="font-semibold text-2xl sm:text-3xl md:text-5xl">
           Welcome to Nutritionist
         </h2>
         <p className="text-base">

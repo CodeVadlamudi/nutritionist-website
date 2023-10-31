@@ -46,26 +46,26 @@ function Feature() {
     },
   ];
   return (
-    <section className="my-24 px-10">
+    <section className="my-12 px-5 sm:px-10">
       <div className="max-w-7xl mx-auto space-y-10">
         <div className="text-center space-y-5">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
             Features
           </h2>
-          <p className="text-lg font-medium">
+          <p className="text-base sm:text-lg font-medium">
             Welcome to the Feature Section of Nutritionist, your ultimate
             destination for all things nutrition and wellness.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           {featureCard.map((card) => (
             <div className="space-y-6 bg-lime-100 p-8 rounded-lg border border-lime-300" key={card.id}>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-lime-300 flex items-center justify-center rounded-lg">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 space-y-2 sm:space-y-0">
+                <div className="w-12 h-12 bg-lime-300 flex items-center justify-center rounded-lg">
                   <img src={card.fImg} alt="Feature card Image" />
                 </div>
-                <h3 className="font-semibold text-2xl">{card.fName}</h3>
+                <h3 className="font-semibold text-xl sm:text-2xl">{card.fName}</h3>
               </div>
               <p>{card.fDesc}</p>
             </div>

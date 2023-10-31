@@ -4,7 +4,7 @@ import ContactSubContent from "./ContactSubContent";
 
 function ContactBox() {
   return (
-    <section className="md:px-10 my-24">
+    <section className="md:px-10 my-12 sm:my-24">
       <div className="max-w-7xl mx-auto bg-lime-100 p-10 border border-lime-300 rounded-lg">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
           <Form />

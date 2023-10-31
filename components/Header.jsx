@@ -43,7 +43,7 @@ function Header() {
 
           <nav
             className={`absolute top-[121.5px] bg-green-950 p-10 flex flex-col space-y-4 right-0 w-full sm:w-6/12 lg:relative lg:top-0 lg:bg-transparent lg:flex-row lg:space-y-0 lg:w-auto lg:items-center lg:space-x-6 lg:p-0 duration-300 rounded-sm ${
-              toggle ? "right-0" : "right-[-100%] lg:right-0"
+              toggle ? "left-0" : "left-[-100%] lg:left-0"
             }`}>
             <a href="/" className="text-lg text-lime-300 font-semibold">
               Home

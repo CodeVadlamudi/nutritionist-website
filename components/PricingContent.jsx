@@ -2,10 +2,10 @@ import React from "react";
 
 function PricingContent() {
   return (
-    <section className="my-24 px-10 xl:px-0">
+    <section className="my-12 sm-my-24 px-10 xl:px-0">
       <div className="max-w-7xl mx-auto space-y-10">
         <div className="space-y-2">
-          <div className="space-x-2 border border-lime-200 w-80 p-5 flex items-center justify-between rounded-md mx-auto">
+          <div className="space-x-2 border border-lime-200 w-full sm:w-80 p-5 flex items-center justify-between rounded-md mx-auto">
             <button className="bg-lime-900 text-gray-200 w-32 h-10 rounded">
               Monthly
             </button>
