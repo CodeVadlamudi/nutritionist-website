@@ -22,12 +22,12 @@ function Header() {
           <img
             src="./images/ball.png"
             alt="Ball Images"
-            className="w-8 h-8 object-contain"
+            className="w-4 sm:w-8 h-4 sm:h-8 object-contain"
           />
-          <h3 className="text-white">
+          <h3 className="text-white text-xs sm:text-base">
             Join Our Personalized Nutrition Demo For Free
           </h3>
-          <ArrowRightIcon className="w-6 h-6 text-white" />
+          <ArrowRightIcon className="w-4 sm:w-6 h-4 sm:h-6 text-white" />
         </div>
       </div>
 
