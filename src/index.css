@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    font-family: "Urbanist";
+    
+    @apply bg-lime-50 h-full;
+  }
+}
